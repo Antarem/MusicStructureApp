@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#185b9d</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#2F1D1A</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#98c6fa</color>
+
+    <color name="play">#2382E1</color>
+
+    <color name="search">#1f75ca</color>
+
+    <color name="library">#1c68b4</color>
+
+    <color name="settings">#185b9d</color>
+
+    <color name="Searchcolor">#edf3ff</color>
+</resources>

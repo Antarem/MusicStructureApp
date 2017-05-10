@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">MusicStructureApp</string>
+
+
+
+    <string name="search_title">Songname...</string>
+
+    <string name="searchText">Plan for creation:
+        This will be the searchscreen. A search function will then show the song/songs,
+        starting while the user is typing, in a list if applicable.
+        The song can be selected and then started by clicking on the player button.
+        it will show songs in the library and other songs. they will be marked which is which.
+        The discover button picks a random song and plays it.</string>
+
+    <string name="Songname">I am a Song title</string>
+
+    <string name="Songdesc">This will be the area displaying the album or single cd cover of
+        the song, the name of the song and will have the media player in it which will feature
+        the options to go rewind/forward the song and stop/play the song. Atop it has like
+        the other screens before buttons leading to other parts of the app. getRessource
+        would be needed to fetch the data and feed it to display the song name and play the song
+        itself.</string>
+
+
+    <string name="LibraryText">This screen is going to display the list of all downloaded
+    songs in a scroll view. It will use the getResourse function </string>
+
+    <!-- here will be the strings for the buttons -->
+
+
+    <string name="library">Library</string>
+    <string name="menu">Menu</string>
+    <string name="search">Search</string>
+    <string name="play">Player</string>
+    <string name="settings">settings</string>
+    <string name="backbutton">back</string>
+    <string name="playbutton">play</string>
+    <string name="stopbutton">stop</string>
+    <string name="nextbutton">next</string>
+    <string name="discover">Discover</string>
+
+
+    <!-- all the strings needed for the settings activity-->
+    <string name="settingsText">Plan for creation:
+
+        This is the settings screen. it has on top buttons which will lead to different
+        areas and the settings itself will have a spinner dropdown menu to let the user
+        select their option.</string>
+
+    <string name="settingsButton1">Theme color</string>
+
+    <string name="settingsButton2">Connection</string>
+
+    <string name="settingsButton3">Recommend</string>
+
+    <string name="settingsButton4">Song arrangement</string>
+
+    <string name="settingsdesc1">Change the color of your app</string>
+
+    <string name="settingsdesc2">choose which connection for downloads</string>
+
+    <string name="settingsdesc3">Have recommendations be shown to you</string>
+    
+    <string name="settingsdesc4">how to sort songs</string>
+
+
+
+
+
+    <!-- these 4 arrays would give the answers for the settings spinners -->
+    <string-array name="spinnerset1">
+        <item>Dark blue</item>
+        <item>Light blue</item>
+        <item>Orange</item>
+        <item>Purple</item>
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>White</item>
+        <item>Black</item>
+    </string-array>
+
+    <string-array name="spinnerset2">
+        <item>Download with wifi only</item>
+        <item>Download with cable only</item>
+        <item>Any connection</item>
+    </string-array>
+
+    <string-array name="spinnerset3">
+        <item>always</item>
+        <item>only if idle</item>
+        <item>only friend referrals</item>
+        <item>only new music</item>
+        <item>only music of certain genres</item>
+    </string-array>
+
+    <string-array name="spinnerset4">
+        <item>alphabetical</item>
+        <item>artists</item>
+        <item>most listened to</item>
+        <item>date of addition</item>
+        <item>only music of certain genres</item>
+    </string-array>
+
+
+
+
+</resources>
